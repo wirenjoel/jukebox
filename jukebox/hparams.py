@@ -156,7 +156,7 @@ prior_5b_lyrics.update(labels)
 HPARAMS_REGISTRY["prior_5b_lyrics"] = prior_5b_lyrics
 
 labels_v3 = Hyperparams(
-    y_bins=(604, 7898),
+    y_bins=(604, 7899),
     t_bins=64,
     max_bow_genre_size=1,
     n_vocab=79,
